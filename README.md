@@ -1,4 +1,4 @@
 ## EcoTech
 
-Esse é um projeteo onde pratico um pouco dos "leyouts" que ja vi,
+Esse é um projeteo onde pratico um pouco de "layout" que eu ja vi,
 trabalhando tambem a responsividade.
