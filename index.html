@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css.css" />
+    <title>Eco-Tech</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+      <nav class="conteiner navegacao">
+        <div class="logo">EcoTech</div>
+
+        <div class="haburger" onclick="apertar()"> ☰ </div>
+
+
+        <ul class="menu">
+          <li>
+            <a href="#destaques">Inicio</a>
+          </li>
+          <li>
+            <a href="#recursos">Recursos</a>
+          </li>
+          <li>
+            <a href="#sobre">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Primeira section -->
+    <section class="destaque" id="destaques">
+      <div class="conteiner">
+        <div class="texto">
+          <h1>Tecnologia Sustentavel</h1>
+          <p>
+            produtos que combinam inovação com responsabilidade ambiental sem
+            abrir mão da qualidade
+          </p>
+          <a href="#" class="botao">Explorar</a>
+        </div>
+        <div class="imagem">
+          <img src="./imagens/logo4.png" alt="logo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Segunda section -->
+    <h2>Nossos Diferenciais</h2>
+    <section class="recursos" id="recursos">
+      
+        <div class="grid">
+                    <div class="caixa">
+                        <div class="card">
+                        <div class="icone">♻️</div>
+                        <h3>Materiais Sustentaveis</h3>
+                        <p>
+                            Componentes reciclados e biodegradaveis que reduzem o impacto
+                            hambiental
+                        </p>
+                        </div>
+                    </div>
+
+                    <div class="caixa">
+                        <div class="card">
+                            <div class="icone">⚡</div>
+                            <h3>Eficiencia energetica</h3>
+                            <p>
+                            Dispositivos que consomem menos energia e tem maior tempo de vida util
+                            </p>
+                        </div>
+                        </div>
+
+                    <div class="caixa">
+                        <div class="card">
+                        <div class="icone">🌱</div>
+                        <h3>Programa de reciclagem</h3>
+                        <p>
+                            Logistica reversa para reciclagem adequada de dispositivos antigos
+                        </p>
+                        </div>
+                        </div>
+
+    </div>
+    </section>
+
+    <!-- Terceira section -->
+    <section class="cta">
+      <h2>Pronto para fazer a diferença?</h2>
+      <p>
+        Junte-se a quem ja escolheu tecnologia consiente para o futuro do
+        planeta
+      </p>
+      <a href="#" class="botao">Comprar agora</a>
+    </section>
+
+    <!-- Roda pé -->
+    <footer>Todos os direitos reservados - 2025</footer>
+  </body>
+  <script src="java.js">
+
+let botao = document.querySelector('.haburger')
+let menu = document.querySelector('.menu')
+
+botao.addEventListener('click', () => {
+    menu.classList.toggle('ativo')
+})
+
+
+
+  </script>
+</html>
